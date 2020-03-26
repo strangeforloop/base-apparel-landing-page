@@ -1,4 +1,4 @@
-## Goal and Technologies
+## Project Goal and Technologies Used
 
 This is a recreation of a static design given on [Frontend Mentor](https://www.frontendmentor.io).</br>
 Technologies used are HTML, JavaScript, CSS Grid, and flexbox.
