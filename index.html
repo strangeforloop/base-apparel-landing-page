@@ -8,26 +8,44 @@
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+  <body>
+    <div class="content">
+      <header class="left">
+        <img src="images/logo.svg" class="logo" alt="logo">
+      </header>
 
-  We're coming soon
+      <img src="/images/hero-mobile.jpg" class="hero-mobile" alt="Girl posing in a peach button up">
+      <div class="hero-desktop"></div>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+      <section class="hero">
+        <div class="container">
+          <h1 class="promo">
+            <span>We're</span></br>
+            coming</br>
+            soon
+          </h1>
+          <p class="info">
+            Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form class="email-form" id="form">
+            <input type="email" class="email-input" id="email" placeholder="Email Address">
+            <img src="images/icon-error.svg" class="error-icon" alt="error icon">
+            <button class="email-button">
+              <img src="images/icon-arrow.svg" alt="arrow">
+            </button>
+            <small class="error-message">Please provide a valid email</small>
+          </form>
+        </div>
+      </section>
+        <script src="index.js"></script>
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+  </body>
 </html>
