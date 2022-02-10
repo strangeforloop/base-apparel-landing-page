@@ -20,6 +20,6 @@
   "homepage": "https://github.com/strangeforloop/base-apparel-coming-soon#readme",
   "dependencies": {
     "concurrently": "^5.1.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
